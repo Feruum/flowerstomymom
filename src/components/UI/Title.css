@@ -1,0 +1,76 @@
+.romantic-overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    user-select: none;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.heart-container {
+    margin-bottom: 25px;
+}
+
+.heart-svg {
+    width: 80px;
+    height: 74px;
+    animation: pulse 1.5s ease-in-out infinite;
+    filter: drop-shadow(0 0 20px rgba(255, 71, 87, 0.6));
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.15);
+    }
+}
+
+.romantic-title {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-size: clamp(28px, 6vw, 56px);
+    color: #fff;
+    text-shadow:
+        0 0 20px rgba(255, 105, 180, 0.8),
+        0 0 40px rgba(255, 105, 180, 0.5),
+        0 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0 0 15px 0;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.romantic-subtitle {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-size: clamp(16px, 3vw, 24px);
+    color: #ffb6c1;
+    text-shadow: 0 0 10px rgba(255, 182, 193, 0.6), 0 2px 4px rgba(0, 0, 0, 0.4);
+    margin: 0 0 30px 0;
+    font-style: italic;
+}
+
+.romantic-hint {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    animation: fadeInOut 3s ease-in-out infinite;
+}
+
+@keyframes fadeInOut {
+
+    0%,
+    100% {
+        opacity: 0.5;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}

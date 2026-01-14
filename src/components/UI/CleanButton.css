@@ -1,0 +1,17 @@
+.clean-btn {
+    z-index: 100;
+    font-family: 'Georgia', serif;
+    font-size: 14px;
+    color: rgba(255, 182, 193, 0.8);
+    text-shadow: 0 0 8px rgba(255, 105, 180, 0.4);
+    user-select: none;
+    padding: 15px 25px;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.3s ease, transform 0.2s ease;
+}
+
+.clean-btn:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
