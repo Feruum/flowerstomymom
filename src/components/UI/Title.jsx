@@ -23,7 +23,7 @@ function Title() {
                     </defs>
                 </svg>
             </div>
-            <h1 className="romantic-title">Туған күнінмен анашым!</h1>
+            <h1 className="romantic-title">Туған күнінмен , анашым!</h1>
             <p className="romantic-subtitle">Каждый клик цветок для тебя</p>
             <p className="romantic-hint">Нажми, чтобы вырастить цветы</p>
         </div>
